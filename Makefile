@@ -1,3 +1,3 @@
 default:
+	python codegen.py
 	terraform fmt -recursive
-	terraform test
